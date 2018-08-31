@@ -308,6 +308,9 @@ html {
   font-size: 14px;
   font-family: "Hiragino Sans GB", "Microsoft Yahei", SimSun, Arial, "Helvetica Neue", Helvetica;
 }
+.min .minTop ul li:hover {
+  box-shadow: 0px 0px 2px 2px #F0F0F0;
+}
 .min .minTop .content1 {
   display: block;
 }

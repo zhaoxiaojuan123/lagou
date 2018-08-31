@@ -17,35 +17,49 @@
       <file leaf-file-name="hotNew.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/hotNew.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-668">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="282">
+              <caret line="113" column="57" lean-forward="true" selection-start-line="113" selection-start-column="57" selection-end-line="113" selection-end-column="57" />
+              <folding>
+                <marker date="1535709235506" expanded="true" signature="950:2608" ph="..." />
+                <marker date="1535709235506" expanded="true" signature="980:1826" ph="..." />
+                <marker date="1535709235506" expanded="true" signature="1126:1730" ph="..." />
+                <marker date="1535709235506" expanded="false" signature="1183:1690" ph="..." />
+                <marker date="1535709235506" expanded="true" signature="1855:1964" ph="..." />
+                <marker date="1535709235506" expanded="true" signature="1995:2152" ph="..." />
+                <marker date="1535709235506" expanded="true" signature="2181:2603" ph="..." />
+                <marker date="1535709235506" expanded="true" signature="2214:2266" ph="..." />
+                <marker date="1535709235506" expanded="true" signature="2299:2588" ph="..." />
+                <marker date="1535709235506" expanded="true" signature="2412:2569" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xt-data.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/json/xt-data.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            <state relative-caret-position="1081">
+              <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less/index.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="139" column="26" selection-start-line="139" selection-start-column="26" selection-end-line="139" selection-end-column="26" />
+            <state relative-caret-position="-522">
+              <caret line="152" column="34" lean-forward="true" selection-start-line="152" selection-start-column="34" selection-end-line="152" selection-end-column="34" />
+              <folding>
+                <element signature="e#717#1345#0" />
+                <element signature="e#4168#6394#0" />
+                <element signature="e#4689#5081#0" />
+                <element signature="e#5135#6118#0" />
+                <element signature="e#6154#6263#0" />
+                <element signature="e#6304#6370#0" />
+                <element signature="e#6689#6795#0" />
+                <element signature="e#6812#7213#0" />
+                <element signature="e#7231#8327#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,11 +91,11 @@
       <list>
         <option value="$PROJECT_DIR$/index.less" />
         <option value="$PROJECT_DIR$/data/xt-data.json" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/less/index.less" />
         <option value="$PROJECT_DIR$/json/xt-data.json" />
         <option value="$PROJECT_DIR$/json/xt-data2.json" />
         <option value="$PROJECT_DIR$/js/hotNew.js" />
-        <option value="$PROJECT_DIR$/less/index.less" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -91,11 +105,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="147" />
-    <option name="y" value="122" />
-    <option name="width" value="1113" />
-    <option name="height" value="788" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1370" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -112,26 +125,6 @@
             <path>
               <item name="拉勾网实战" type="b2602c69:ProjectViewProjectNode" />
               <item name="拉勾网实战" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="拉勾网实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="拉勾网实战" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="拉勾网实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="拉勾网实战" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="拉勾网实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="拉勾网实战" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="拉勾网实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="拉勾网实战" type="462c0819:PsiDirectoryNode" />
               <item name="less" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -143,8 +136,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zfpx-201807/正式课/第六周/第三天/交互简历" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -153,14 +147,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\拉勾网实战\images\img1" />
-      <recent name="C:\Users\Administrator\Desktop\拉勾网实战\js" />
-      <recent name="C:\Users\Administrator\Desktop\拉勾网实战\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\拉勾网实战\json" />
       <recent name="C:\Users\Administrator\Desktop\拉勾网实战\less" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\拉勾网实战\拉勾网实战\images\img1" />
+      <recent name="C:\Users\Administrator\Desktop\拉勾网实战\images\img1" />
+      <recent name="C:\Users\Administrator\Desktop\拉勾网实战\js" />
+      <recent name="C:\Users\Administrator\Desktop\拉勾网实战\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -192,34 +187,36 @@
       <workItem from="1535634813135" duration="2284000" />
       <workItem from="1535641588234" duration="6710000" />
       <workItem from="1535671098579" duration="13041000" />
-      <workItem from="1535685432817" duration="12413000" />
+      <workItem from="1535685432817" duration="12102000" />
+      <workItem from="1535698944268" duration="10091000" />
+      <workItem from="1535709953385" duration="218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46182000" />
+    <option name="totallyTimeSpent" value="56180000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="0" width="1370" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15919283" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962293" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298969" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +226,101 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/hotNew.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2254">
+          <caret line="117" column="38" lean-forward="true" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
+          <folding>
+            <marker date="1535709235506" expanded="true" signature="950:2608" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="980:1826" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="1126:1730" ph="..." />
+            <marker date="1535709235506" expanded="false" signature="1183:1690" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="1855:1964" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="1995:2152" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="2181:2603" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="2214:2266" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="2299:2588" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="2412:2569" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3289">
+          <caret line="143" column="21" selection-start-line="143" selection-start-column="21" selection-end-line="143" selection-end-column="21" />
+          <folding>
+            <element signature="e#717#1345#0" />
+            <element signature="e#4168#6394#0" />
+            <element signature="e#4689#5081#0" />
+            <element signature="e#5135#6118#0" />
+            <element signature="e#6154#6263#0" />
+            <element signature="e#6304#6370#0" />
+            <element signature="e#6689#6795#0" />
+            <element signature="e#6812#7213#0" />
+            <element signature="e#7231#8327#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/hotNew.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <marker date="1535709235506" expanded="true" signature="950:2608" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="980:1826" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="1126:1730" ph="..." />
+            <marker date="1535709235506" expanded="false" signature="1183:1690" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="1855:1964" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="1995:2152" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="2181:2603" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="2214:2266" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="2299:2588" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="2412:2569" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/xt-data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4170">
+          <caret line="139" column="26" selection-start-line="139" selection-start-column="26" selection-end-line="139" selection-end-column="26" />
+          <folding>
+            <element signature="e#717#1345#0" />
+            <element signature="e#4168#6394#0" />
+            <element signature="e#4689#5081#0" />
+            <element signature="e#5135#6118#0" />
+            <element signature="e#6154#6263#0" />
+            <element signature="e#6304#6370#0" />
+            <element signature="e#6689#6795#0" />
+            <element signature="e#6812#7213#0" />
+            <element signature="e#7231#8327#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/hotNew.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1311">
@@ -412,13 +504,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.css" />
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="151" column="21" lean-forward="true" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/json/xt-data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -426,72 +511,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zfpx-201807/正式课/第四周/第五天/JQ轮播图/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1104" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zfpx-201807/正式课/第四周/第三天/轮播图/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zfpx-201807/正式课/第四周/第三天/轮播图/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../zfpx-201807/正式课/第四周/第五天/JQ轮播图/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/../zfpx-201807/正式课/第四周/第三天/轮播图/utils.js" />
+    <entry file="file://$PROJECT_DIR$/../zfpx-201807/正式课/第四周/第三天/轮播图/index.js" />
     <entry file="file://$PROJECT_DIR$/js/utils.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1620" />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/img1/chat-box.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1389">
+          <caret line="155" column="15" lean-forward="true" selection-start-line="155" selection-start-column="15" selection-end-line="155" selection-end-column="15" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/img1/5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/img1/47aa4ca60fd3313e8bf7427922d83032_CgqKkVf56AGAKT8jAAAhypMd13w940.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/img2/1.jpeg">
+    <entry file="file://$PROJECT_DIR$/images/img1/erweima.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/json/xt-data2.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2369">
-          <caret line="151" column="19" selection-start-line="151" selection-start-column="18" selection-end-line="151" selection-end-column="19" />
+        <state relative-caret-position="450">
+          <caret line="171" column="15" selection-start-line="171" selection-start-column="15" selection-end-line="171" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/json/xt-data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="139" column="26" selection-start-line="139" selection-start-column="26" selection-end-line="139" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/hotNew.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-668">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="848">
+          <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        <state relative-caret-position="1081">
+          <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/hotNew.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="113" column="57" lean-forward="true" selection-start-line="113" selection-start-column="57" selection-end-line="113" selection-end-column="57" />
+          <folding>
+            <marker date="1535709235506" expanded="true" signature="950:2608" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="980:1826" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="1126:1730" ph="..." />
+            <marker date="1535709235506" expanded="false" signature="1183:1690" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="1855:1964" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="1995:2152" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="2181:2603" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="2214:2266" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="2299:2588" ph="..." />
+            <marker date="1535709235506" expanded="true" signature="2412:2569" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522">
+          <caret line="152" column="34" lean-forward="true" selection-start-line="152" selection-start-column="34" selection-end-line="152" selection-end-column="34" />
+          <folding>
+            <element signature="e#717#1345#0" />
+            <element signature="e#4168#6394#0" />
+            <element signature="e#4689#5081#0" />
+            <element signature="e#5135#6118#0" />
+            <element signature="e#6154#6263#0" />
+            <element signature="e#6304#6370#0" />
+            <element signature="e#6689#6795#0" />
+            <element signature="e#6812#7213#0" />
+            <element signature="e#7231#8327#0" />
+          </folding>
         </state>
       </provider>
     </entry>

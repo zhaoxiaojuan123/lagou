@@ -2,7 +2,7 @@
   {
     "id": 1,
     "job": "海外资金主管",
-    "time": "[21.54发布]",
+    "time": "[21:54发布]",
     "chat":"",
     "pay":"9k-18k",
     "experience":"经验1-3年",
@@ -14,13 +14,15 @@
     "company":"汤臣倍健",
     "introduce1":"医疗健康",
     "introduce2":"上市公司",
-    "introduce3":"广州"
+    "introduce3":"广州",
+    "name":"Anna",
+    "post":"人力资源"
 
   },
   {
     "id": 2,
     "job": "java讲师",
-    "time": "[21.52发布]",
+    "time": "[21:52发布]",
     "chat":"",
     "pay":"15k-25k",
     "experience":"经验3-5年",
@@ -32,12 +34,14 @@
     "company":"北京八维研修学院",
     "introduce1":"教育",
     "introduce2":"未融资",
-    "introduce3":"北京"
+    "introduce3":"北京",
+    "name":"辛子",
+    "post":"hr"
   },
   {
     "id": 3,
     "job": "Web前端开发工程师",
-    "time": "[21.50发布]",
+    "time": "[21:50发布]",
     "chat":"",
     "pay":"8K-12K",
     "experience":"经验1-3年",
@@ -49,12 +53,14 @@
     "company":"易买屋",
     "introduce1":"移动互联网",
     "introduce2":"不需要融资",
-    "introduce3":"深圳"
+    "introduce3":"深圳",
+    "name":"丘小姐",
+    "post":"HR"
   },
   {
     "id": 4,
     "job": "深度学习技术平台",
-    "time": "[20.54发布]",
+    "time": "[20:54发布]",
     "chat":"",
     "pay":"20k-40k",
     "experience":"经验不限",
@@ -66,12 +72,14 @@
     "company":"百度",
     "introduce1":"移动互联网，数据服务",
     "introduce2":"不需要融资",
-    "introduce3":"北京"
+    "introduce3":"北京",
+    "name":"angela.dong",
+    "post":"人力资源"
   },
   {
     "id": 5,
     "job": "新媒体运营经理",
-    "time": "[21.00发布]",
+    "time": "[21:00发布]",
     "chat":"",
     "pay":"9k-18k",
     "experience":"经验3-5年",
@@ -83,13 +91,15 @@
     "company":"意外艺术",
     "introduce1":"移动互联网，电子商务",
     "introduce2":"B轮",
-    "introduce3":"北京"
+    "introduce3":"北京",
+    "name":"李四",
+    "post":"人力资源"
   },
 
   {
     "id": 6,
     "job": "资深Java研发工程师",
-    "time": "[21.42发布]",
+    "time": "[21:42发布]",
     "chat":"",
     "pay":"30k-50k",
     "experience":"经验5-10年",
@@ -101,12 +111,14 @@
     "company":"上海携永信息科技有限公司",
     "introduce1":"电子商务，分类信息",
     "introduce2":"C轮",
-    "introduce3":"上海"
+    "introduce3":"上海",
+    "name":"张三",
+    "post":"人力资源"
   },
   {
     "id": 7,
     "job": "UI设计师",
-    "time": "[21.50发布]",
+    "time": "[21:50发布]",
     "chat":"",
     "pay":"12k-18k",
     "experience":"经验3-5年",
@@ -118,12 +130,14 @@
     "company":"雅江光电科技",
     "introduce1":"移动互联网",
     "introduce2":"未融资",
-    "introduce3":"深圳"
+    "introduce3":"深圳",
+    "name":"嘉文",
+    "post":"人力资源"
   },
   {
     "id": 8,
     "job": "摄影师",
-    "time": "[21.44发布]",
+    "time": "[21:44发布]",
     "chat":"",
     "pay":"9k-18k",
     "experience":"经验1-3年",
@@ -135,12 +149,14 @@
     "company":"shein",
     "introduce1":"电子商务",
     "introduce2":"B轮",
-    "introduce3":"广州"
+    "introduce3":"广州",
+    "name":"赵信",
+    "post":"人力资源"
   },
   {
     "id": 9,
     "job": "商务经理",
-    "time": "[21.00发布]",
+    "time": "[21:00发布]",
     "chat":"",
     "pay":"8k-12k",
     "experience":"经验不限",
@@ -152,6 +168,8 @@
     "company":"5E传媒",
     "introduce1":"移动互联网，游戏",
     "introduce2":"未融资",
-    "introduce3":"深圳"
+    "introduce3":"深圳",
+    "name":"盖伦",
+    "post":"HR"
   }
 ]

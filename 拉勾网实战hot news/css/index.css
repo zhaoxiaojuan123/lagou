@@ -70,11 +70,15 @@ html {
   position: absolute;
   left: 4px;
   top: 20px;
+  padding: 14px 0;
+  margin-top: -18px;
 }
 .min .hotNew > div:nth-child(2) {
   position: absolute;
   left: 130px;
   top: 20px;
+  padding: 14px 0;
+  margin-top: -18px;
 }
 .min .minTop {
   width: 1218px;
@@ -133,6 +137,107 @@ html {
   position: relative;
   width: 16px;
   height: 16px;
+}
+.min .minTop ul li div.top .chat-box .chat_pop_up {
+  display: none;
+  position: absolute;
+  top: -30px;
+  left: 40px;
+  width: 312px;
+  height: 132px;
+  padding: 16px;
+  background: #fff;
+  z-index: 1;
+  border-radius: 3px;
+  border: 1px solid #dce4e6;
+  box-shadow: 1px 1px 2px #f2f2f2;
+}
+.min .minTop ul li div.top .chat-box .chat_pop_up .arrow {
+  position: absolute;
+  left: -8px;
+  top: 33px;
+  width: 14px;
+  height: 14px;
+  margin: 0 !important;
+  background-color: #fff;
+  border-left: 1px solid #dce4e6;
+  border-top: 1px solid #dce4e6;
+  -webkit-transform: rotate(-45deg);
+}
+.min .minTop ul li div.top .chat-box .chat_pop_up .chat_main .clearfix:before,
+.min .minTop ul li div.top .chat-box .chat_pop_up .chat_main .clearfix:after {
+  content: "";
+  display: table;
+}
+.min .minTop ul li div.top .chat-box .chat_pop_up .chat_main dt {
+  width: 116px;
+  height: 116px;
+  float: right;
+  border: 1px solid #eee;
+  margin-top: 6px;
+  padding: 0;
+}
+.min .minTop ul li div.top .chat-box .chat_pop_up .chat_main dd {
+  clear: none;
+  padding: 0;
+}
+.min .minTop ul li div.top .chat-box .chat_pop_up .chat_main dd .chat_head .clearfix:before,
+.min .minTop ul li div.top .chat-box .chat_pop_up .chat_main dd .chat_head .clearfix:after {
+  content: "";
+  display: table;
+}
+.min .minTop ul li div.top .chat-box .chat_pop_up .chat_main dd .chat_head dt {
+  width: 62px;
+  height: auto;
+  float: left;
+  margin: 0 14px 10px 0;
+  background: 0 0;
+  border: 0;
+  padding: 0;
+}
+.min .minTop ul li div.top .chat-box .chat_pop_up .chat_main dd .chat_head dt .hr_headpic {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  overflow: hidden;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 62px;
+  text-align: center;
+}
+.min .minTop ul li div.top .chat-box .chat_pop_up .chat_main dd .chat_head dd {
+  min-height: 64px;
+  color: #333;
+  line-height: 22px;
+}
+.min .minTop ul li div.top .chat-box .chat_pop_up .chat_main dd .chat_head dd .hr_name {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+.min .minTop ul li div.top .chat-box .chat_pop_up .chat_main dd .chat_head dd .hr_position {
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+.min .minTop ul li div.top .chat-box .chat_pop_up .chat_main dd .chat_head .tips_text {
+  clear: left;
+  font-size: 14px;
+}
+.min .minTop ul li div.top .chat-box .chat_pop_up .chat_main dd .chat_head .clearfix:after {
+  clear: both;
+}
+.min .minTop ul li div.top .chat-box .chat_pop_up .chat_main .clearfix:after {
+  clear: both;
 }
 .min .minTop ul li div.top .salary {
   float: right;
@@ -202,6 +307,12 @@ html {
 .min .minTop ul li .bottom .rt-box .box2 span {
   font-size: 14px;
   font-family: "Hiragino Sans GB", "Microsoft Yahei", SimSun, Arial, "Helvetica Neue", Helvetica;
+}
+.min .minTop .content1 {
+  display: block;
+}
+.min .minTop .content2 {
+  display: none;
 }
 .min .company {
   width: 1200px;

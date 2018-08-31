@@ -19,8 +19,8 @@
     <div class="minRight"></div>
     </div>
     <div class="hotNew">
-        <div class="zHot"><p>热门职位</p></div>
-        <div class="zNow"><p>最新职位</p></div></div>
+        <div class="zHot current"><p>热门职位</p></div>
+        <div class="zNew"><p>最新职位</p></div></div>
     <div class="minTop"><ul class="content1">
         <!--<li>-->
             <!--<div class="top">-->
@@ -62,19 +62,4 @@
 </html>
 
 <script src="js/hotNew.js"></script>
-<script>
-    var zHot=document.getElementsByClassName('zHot')[0];
-    var zNew=document.getElementsByClassName('zNew')[0];
-    var  zCon1=document.getElementsByClassName('content1')[0];
-    var  zCon2=document.getElementsByClassName('content2')[0];
 
-    zHot.onclick=function () {
-        zCon1.style.display='block';
-        zCon2.style.display='none';
-    };
-    zNew.onclick=function () {
-        zCon2.style.display='block';
-        zCon1.style.display='none';
-    };
-
-</script>

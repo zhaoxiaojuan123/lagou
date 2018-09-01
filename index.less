@@ -1,0 +1,465 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+body,html{
+  width: 100%;
+  height: 100%;
+
+}
+.header{
+  height: 218px;
+  width: 100%;
+  background: aqua;
+  .login{
+    width: 100%;
+    height: 30px;
+    background: black;
+  }
+  .headerNav{
+    width: 100%;
+    height: 56px;
+    background:gold;
+  }
+  .headerSearch{
+    width: 100%;
+    height: 132px;
+    background: chartreuse;
+  }
+}
+.min{
+  width: 1200px;
+  margin: auto;
+  .banner {
+    width: 1200px;
+    background: black;
+    height: 346px;
+
+    .minLeft {
+      width: 321px;
+      height: 385px;
+      float: left;
+      background: cornflowerblue;
+    }
+
+    .minRight {
+      width: 840px;
+      height: 346px;
+      background: red;
+      float: left;
+    }
+  }
+  .hotNew{
+    width: 1200px;
+    height: 53px;
+    background: coral;
+  }
+  .minTop{
+    width: 1200px;
+    height: 648px;
+    background: chocolate ;
+  }
+  .company{
+    width: 1200px;
+    background: darkseagreen;
+    height: 53px;
+  }
+  .minBottom{
+    width: 1200px;
+    height: 572px;
+    background: deeppink;
+  }
+  .frined{
+    width: 1200px;
+    height: 198px;
+    margin-top: 52px;
+    overflow: hidden;
+    position: relative;
+    dl{
+      position:relative;
+      dt{
+        border-bottom: 1px solid #E8E8E8;
+        font-size: 16px;
+        color: #333;;
+        margin-bottom: 21px;
+        .current{
+          display: inline-block;
+          padding: 14px 0;
+          border-bottom: 2px solid #333;
+        }
+      }
+      dd.links{
+        position: relative;
+        width: 1120px;
+        color: #555;
+        font-size: 14px;
+        overflow: hidden;
+        a{
+          text-decoration: none;
+          color: #555;
+          float: left;
+          height: 15px;
+          line-height: 15px;
+          padding: 8px 18px 8px 0;
+          white-space: nowrap;
+        }
+      }
+      .expansion{
+        height: 22px;
+        position: absolute;
+        right: 3px;
+        top:78px;
+        cursor: pointer;
+        color: #999;
+        i{
+          display: inline-block;
+          width: 12px;
+          height: 12px;
+          margin-left: 5px;
+          background-image: url("//www.lgstatic.com/www/static/index/modules/friendlink/img/arrow_down2_eea7e54.png");
+          background-repeat:no-repeat;
+          background-position: 0 3px;
+          background-size: 12px 6px;
+
+        }
+        i.i-up{
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+  #linkbox.shadow-linkbox{
+    height: 99px;
+  }
+
+}
+/*小飞机回到顶部start*/
+#backtop{
+  background: url("https://www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/backtop-new_0e4bcbc.png") left top no-repeat;
+  width: 28px;
+  height: 46px;
+  position: fixed;
+  right: 41px;
+  z-index: 2000;
+  cursor: pointer;
+  display: none;
+}
+#backtop:hover{
+  background-position: right top !important;
+}
+/*小飞机回到顶部end*/
+/*footer start*/
+.footer{
+  line-height: 22px;
+  width: 100%;
+  height: 354px;
+  background-color: #fff;
+  border-top: 1px solid #ebebeb;
+  position: relative;
+  z-index: 1001;
+  .wrapper{
+    margin: 0 auto;
+    position: relative;
+    .inner_wrapper{
+      width: 1200px;
+      max-width: 1200px;
+      margin: 49px auto 66px;
+      white-space: nowrap;
+      display: flex;
+      .footer_module_column{
+        border-right: 1px solid #e8e8e8;
+        padding-right: 130px;
+        font-size: 14px;
+        .footer_app{
+          position: relative;
+          padding: 10px 0 8px;
+          width: 180px;
+          border: 1px solid #00b38a;
+          color: #00b38a;
+          text-align: center;
+          margin-bottom: 16px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .footer_app_icon{
+            display: inline-block;
+            height: 16px;
+            width: 12px;
+            margin-right: 7.6px;
+            background: url("https://www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/sprite_9dd5c92.png") -150px -220px no-repeat;
+          }
+          img{
+            position: absolute;
+            display: none;
+            opacity: 0;
+            animation: opacityMove 1s;
+            bottom: -99px;
+            width: 140px;
+            height: 140px;
+            right: -150px;
+            z-index: 1001;
+            background-color:#fff ;
+            box-shadow:0 2px 8px 0 rgba(0,0,0,0.1) ;
+            border-radius: 3px;
+          }
+        }
+        .footer_app:hover{
+          background: #00b38a;
+          color: #fff;
+          .footer_app_icon{
+            background: url("https://www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/sprite_9dd5c92.png") -182px -220px no-repeat;
+          }
+          img{
+            display: block;
+            transition: opacity 1s;
+            opacity: 1;
+            position: absolute;
+            bottom: -99px;
+            width: 140px;
+            height: 140px;
+            right: -150px;
+            z-index: 1001;
+            background-color: #fff;
+            box-shadow: 0 2px 8px 0 rgba(0,0,0,0.1);
+            border-radius: 3px;
+          }
+        }
+        .footer_mina{
+          position: relative;
+          padding: 10px 0 8px;
+          width: 180px;
+          border: 1px solid #00b38a;
+          color: #00b38a;
+          text-align: center;
+          margin-bottom: 16px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .footer_mina_icon{
+            display: inline-block;
+            height: 16px;
+            width: 12px;
+            margin-right: 6.4px;
+            background: url("https://www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/sprite_9dd5c92.png") -214px -54px no-repeat;
+
+          }
+          img{
+            display: none;
+            position: absolute;
+            bottom: -99px;
+            width: 140px;
+            height: 140px;
+            right: -150px;
+            z-index: 1001;
+            background-color: #fff;
+            box-shadow:0 2px 8px 0 rgba(0,0,0,0.1) ;
+            border-radius: 3px;
+            animation: opacityMove 1s;
+          }
+        }
+        .footer_mina:hover{
+          background: #00b38a;
+          color: #fff;
+          .footer_mina_icon{
+            background: url("https://www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/sprite_9dd5c92.png")-172px -54px no-repeat;
+          }
+          img{
+            display: block;
+          }
+        }
+        .footer_module_item{
+          display: flex;
+          justify-content: space-between;
+          .footer_wechat{
+            position: relative;
+            color: #555;
+            font-size: 14px;
+            .footer_wechat_icon{
+              display: inline-block;
+              width: 16px;
+              height: 16px;
+              margin-right: 5px;
+              background: url("https://www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/sprite_9dd5c92.png")-114px -184px no-repeat;
+            }
+            img{
+              display: none;
+              position: absolute;
+              width: 140px;
+              height: 140px;
+              top: 32px;
+              left: 0;
+              z-index: 1001;
+              background-color: #fff;
+              box-shadow: 0 2px 8px 0 rgba(0,0,0,0.1);
+              border-radius: 3px;
+            }
+          }
+          .footer_wechat:hover{
+            color: #00b38a;
+            .footer_wechat_icon{
+              background: url("https://www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/sprite_9dd5c92.png") -114px -220px no-repeat;
+            }
+            img{
+              display: block;
+            }
+          }
+          .footer_webo{
+            position: relative;
+            color: #555;
+            font-size: 14px;
+            .footer_webo_icon{
+              display: inline-block;
+              height: 14px;
+              width: 16px;
+              margin-right: 5px;
+              background: url("https://www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/sprite_9dd5c92.png")-214px -20px no-repeat;
+            }
+          }
+          .footer_webo:hover{
+            color: #00b38a;
+             .footer_webo_icon{
+               background: url("https://www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/sprite_9dd5c92.png") -172px -20px no-repeat;
+             }
+          }
+        }
+      }
+      .footer_module_right{
+        margin-left: 130px;
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        .footer_module_business{
+          .footer_module_title{
+            font-size: 18px;
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 30px;
+
+          }
+          span.tel{
+            color: #555;
+            font-size: 14px;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+          }
+          a{
+            color: #555;
+            font-size: 14px;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+          }
+          em{
+            font-style: normal;
+            font-size: 14px;
+          }
+        }
+        .footer_module_business a:hover{
+          color: #00b38a;
+        }
+      }
+    }
+    .copyright{
+      clear: both;
+      margin: 0 auto;
+      color: #999;
+      font-size: 14px;
+      line-height: 12px;
+      text-align: center;
+      background: #fafafa;
+      height: 100px;
+      overflow: hidden;
+      .copyright_main{
+        width: 1200px;
+        max-width: 1200px;
+        margin: 28px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .copy_main_left{
+          display: flex;
+          align-items: center;
+          .copyright_title{
+            margin-right: 5px;
+            em{
+              font-style: normal;
+              font-size: 14px;
+            }
+          }
+          a:hover{
+            color: #555;
+          }
+        }
+        .footer_gongan{
+           margin: 0 0 0 20px;
+          display: flex;
+          align-items: center;
+          .footer_lagou_gongan{
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background: url("https://www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/sprite_9dd5c92.png") -150px -184px no-repeat;
+            margin: 0 5px 0 0;
+          }
+        }
+        .footer_lagou_jubao{
+          margin: 0 0 0 20px;
+          border: 1px solid #d5dadf;
+          display: flex;
+          align-items: center;
+          padding: 8px 20px;
+          .lagou_jubao{
+            display: inline-block;
+            width: 20px;
+            height: 24px;
+            background: url("https://www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/sprite_9dd5c92.png") -132px -20px no-repeat;
+            margin: 0 10px 0 0;
+            font-style: normal;
+          }
+          p{
+            text-align: left;
+            span{
+              display: block;
+              line-height: 14px;
+              font-size: 12px;
+              color: #999;
+            }
+            strong{
+              font-weight: 600;
+              display: block;
+              line-height: 14px;
+              font-size: 12px;
+              color: #999;
+            }
+          }
+        }
+        .footer_lagou_icon{
+          display: inline-block;
+          width: 198px;
+          height: 19px;
+          background: url("https://www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/footer_lagou_icon_75f0ebc.png") 0 0 no-repeat;
+        }
+      }
+      em{
+        font-family: Arial;
+      }
+      a{
+        padding-right: 0;
+        font-size: 14px;
+        color: #999;
+      }
+    }
+  }
+}
+@keyframes opacityMove {
+  0%{
+      opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+/*footer end*/

@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+.header {
+  height: 218px;
+  width: 100%;
+  background: aqua;
+}
+.header .login {
+  width: 100%;
+  height: 30px;
+  background: black;
+}
+.header .headerNav {
+  width: 100%;
+  height: 56px;
+  background: gold;
+}
+.header .headerSearch {
+  width: 100%;
+  height: 132px;
+  background: chartreuse;
+}
+.min {
+  width: 1200px;
+  margin: auto;
+}
+.min .banner {
+  width: 1200px;
+  background: black;
+  height: 346px;
+}
+.min .banner .minLeft {
+  width: 321px;
+  height: 385px;
+  float: left;
+  background: cornflowerblue;
+}
+.min .banner .minRight {
+  width: 840px;
+  height: 346px;
+  background: red;
+  float: left;
+}
+.min .hotNew {
+  width: 1200px;
+  height: 53px;
+  background: coral;
+}
+.min .minTop {
+  width: 1200px;
+  height: 648px;
+  background: chocolate ;
+}
+.min .company {
+  width: 1200px;
+  background: darkseagreen;
+  height: 53px;
+}
+.min .minBottom {
+  width: 1200px;
+  height: 572px;
+  background: deeppink;
+}
+.min .frined {
+  width: 1200px;
+  height: 198px;
+  background: beige;
+  margin-top: 52px;
+  overflow: hidden;
+  position: relative;
+}
+.footer {
+  width: 100%;
+  height: 354px;
+  background: lawngreen;
+}

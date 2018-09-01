@@ -49,23 +49,26 @@ html {
   height: 385px;
   margin-left: -15px;
   position: absolute;
-  left: 0;
   top: 0;
+  left: 0;
 }
-.min .banner .minLeft .menu_box {
-  width: 321px;
-  height: 20px;
-  line-height: 20px;
+.min .banner .minLeft .menu .menu_box {
+  position: relative;
+}
+.min .banner .minLeft .menu .menu_box .menu_main {
   padding: 18px 0 17px 0;
   position: relative;
+  line-height: 20px;
+  top: 0;
 }
-.min .banner .minLeft .menu_box .menu_main {
+.min .banner .minLeft .menu .menu_box .menu_main .menu_main_col {
   width: 321px;
   height: 20px;
   position: relative;
+  border-right: 0;
   overflow: hidden;
 }
-.min .banner .minLeft .menu_box .menu_main h2 {
+.min .banner .minLeft .menu .menu_box .menu_main .menu_main_col h2 {
   display: inline-block;
   padding-left: 15px;
   font-family: "Hiragino Sans GB", "Microsoft Yahei", SimSun, Arial, "Helvetica Neue", Helvetica;
@@ -75,7 +78,7 @@ html {
   color: #333;
   float: left;
 }
-.min .banner .minLeft .menu_box .menu_main a {
+.min .banner .minLeft .menu .menu_box .menu_main .menu_main_col a {
   display: inline-block;
   color: #555;
   padding: 0 8px;
@@ -85,11 +88,11 @@ html {
   font-family: "Hiragino Sans GB", "Microsoft Yahei", SimSun, Arial, "Helvetica Neue", Helvetica;
   font-size: 14px;
 }
-.min .banner .minLeft .menu_box .menu_main a:hover {
+.min .banner .minLeft .menu .menu_box .menu_main .menu_main_col a:hover {
   text-decoration-line: underline ;
   color: #00b38a;
 }
-.min .banner .minLeft .menu_box .menu_main i {
+.min .banner .minLeft .menu .menu_box .menu_main .menu_main_col i {
   background: url("../images/arrow.png") 0 0 no-repeat;
   width: 6px;
   height: 11px;
@@ -98,28 +101,49 @@ html {
   right: 0;
   top: 6px;
 }
-.min .banner .minLeft .menu_box .hide_box {
+.min .banner .minLeft .menu .menu_box .hide_box {
   width: 600px;
   padding: 20px 10px 0 12px;
   position: absolute;
   left: 321px;
   top: 0;
   background: #fff;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.09);
+  border-radius: 2px;
+  border-top-left-radius: 0;
+  z-index: 10;
   display: none;
 }
-.min .banner .minLeft .menu_box .hide_box .content_box {
+.min .banner .minLeft .menu .menu_box .hide_box .content_box {
   margin-right: -1px;
   margin-bottom: 17px;
 }
-.min .banner .minLeft .menu_box .hide_box .content_box span {
-  display: block;
+.min .banner .minLeft .menu .menu_box .hide_box .content_box span {
+  display: inline-block;
   font-family: "Hiragino Sans GB", "Microsoft Yahei", SimSun, Arial, "Helvetica Neue", Helvetica;
   font-size: 14px;
   color: #333;
   padding-left: 10px;
   margin-bottom: 6px;
+  position: relative;
 }
-.min .banner .minLeft .menu_box .hide_box .content_box a {
+.min .banner .minLeft .menu .menu_box .hide_box .content_box span i.new_icon {
+  background: url("../images/new_icon.png") 0 0 no-repeat;
+  position: absolute;
+  right: -24px;
+  top: -4px;
+  width: 24px;
+  height: 14px;
+}
+.min .banner .minLeft .menu .menu_box .hide_box .content_box .aBox {
+  font-size: 0;
+  color: #555;
+  overflow: hidden;
+}
+.min .banner .minLeft .menu .menu_box .hide_box .content_box .aBox .hot_color {
+  color: #00b38a;
+}
+.min .banner .minLeft .menu .menu_box .hide_box .content_box .aBox a {
   display: inline-block;
   padding: 0 11px;
   margin-left: -1px;
@@ -130,7 +154,7 @@ html {
   color: #555;
   position: relative;
 }
-.min .banner .minLeft .menu_box .hide_box .content_box a:before {
+.min .banner .minLeft .menu .menu_box .hide_box .content_box .aBox a:before {
   content: "";
   position: absolute;
   width: 1px;
@@ -139,21 +163,29 @@ html {
   top: 8px;
   left: 0;
 }
-.min .banner .minLeft .menu_box .hide_box .content_box a:hover {
+.min .banner .minLeft .menu .menu_box .hide_box .content_box .aBox a:hover {
   text-decoration-line: underline ;
   color: #00b38a;
 }
-.min .banner .minLeft .menu_box:hover {
-  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.09);
-  border-radius: 2px;
-  border-top-left-radius: 0;
+.min .banner .minLeft .menu .menu_box.current:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -1px;
+  width: 7px;
+  background: #fff;
+  z-index: 102;
 }
-.min .banner .minLeft .menu_box:hover .hide_box {
-  display: block;
+.min .banner .minLeft .menu .menu_box:hover .menu_main {
   box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.09);
   border-radius: 2px;
-  border-top-left-radius: 0;
-  z-index: 10;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  top: 0;
+}
+.min .banner .minLeft .menu .menu_box:hover .hide_box {
+  display: block;
 }
 .min .banner .minRight {
   width: 840px;
